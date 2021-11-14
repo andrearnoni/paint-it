@@ -29,7 +29,7 @@ const Home = () => {
   const totalLiters = parseFloat(liters1 + liters2 + liters3 + liters4).toFixed(1);
   const totalArea = area1 + area2 + area3 + area4;
 
-  const messageTotalArea = `* A área total calculada é de ${totalArea} m² sendo necessários ${totalLiters} litros de tinta`;
+  const messageTotalArea = `* A área total calculada é de ${totalArea.toFixed(1)} m² sendo necessários ${totalLiters} litros de tinta`;
 
   const suggestionToBuy = (size) => {
     if (size === 0.5) {
