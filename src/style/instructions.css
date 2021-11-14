@@ -1,0 +1,33 @@
+.instructions__container {
+  backdrop-filter: blur( 1.5px );
+  background: rgba(0, 0, 0, 0.795);
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border-radius: 10px;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 25px;
+  width: 1100px;
+}
+
+.instructions__title {
+  text-align: center;
+}
+
+.ul-informations {
+  margin: 20px 0;
+}
+
+.ul-informations li + li {
+  margin-top: 15px;
+}
+
+.instructions-img {
+  width: 200px;
+}
+
+.instructions-link {
+  margin:auto;
+}

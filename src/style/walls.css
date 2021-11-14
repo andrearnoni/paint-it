@@ -1,0 +1,83 @@
+.walls__container {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: space-evenly;
+  width: 100vw;
+}
+
+.wall1__container, .wall2__container, .wall3__container, .wall4__container {
+  backdrop-filter: blur( 1.5px );
+  background: rgba(0, 0, 0, 0.795);
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border-radius: 10px;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  width: 17rem;
+}
+
+.wall-input {
+  font-size: 15px;
+  margin-bottom: 10px;
+  padding: 4px;
+}
+
+.wall-title {
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.wall-button1 {
+  background-color: #249adf;
+  border: none;
+  border-radius: 15px;
+  color: whitesmoke;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.firstMessage {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.radio__container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.choose__container {
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 7px;
+  margin: 0 auto 0 auto;
+  padding: 10px;
+  width: 700px;
+}
+
+.radio__container input + label {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.radio-title {
+  text-align: center;
+  margin-top: 0 !important
+}
+
+.secondMessage {
+  color: white;
+  font-size: 25px;
+  margin-top: 40px;
+  text-align: center;
+}
