@@ -98,6 +98,7 @@ function Wall1({ validationMessage }) {
         Escolha a largura da parede:
         <input
           type="text"
+          autoComplete="off"
           className="wall-input"
           name="wallWidth1"
           value={ wallWidth1 }
@@ -108,6 +109,7 @@ function Wall1({ validationMessage }) {
         Escolha a altura da parede:
         <input
           type="text"
+          autoComplete="off"
           className="wall-input"
           name="wallHeight1"
           value={ wallHeight1 }
@@ -118,6 +120,7 @@ function Wall1({ validationMessage }) {
         Escolha a quantidade de portas:
         <input
           type="text"
+          autoComplete="off"
           className="wall-input"
           name="door1"
           value={ door1 }
@@ -128,6 +131,7 @@ function Wall1({ validationMessage }) {
         Escolha a quantidade de janelas:
         <input
           type="text"
+          autoComplete="off"
           className="wall-input"
           name="window1"
           value={ window1 }
